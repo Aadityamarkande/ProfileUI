@@ -11,7 +11,6 @@
         android:orientation="vertical"
         android:paddingTop="24dp">
 
-        <!-- Top Gray Section -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -19,7 +18,6 @@
             android:background="#1A1A1A"
             android:paddingHorizontal="16dp">
 
-            <!-- Top Bar -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -67,7 +65,6 @@
                 </FrameLayout>
             </LinearLayout>
 
-            <!-- Profile Info -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -126,7 +123,6 @@
                 </FrameLayout>
             </LinearLayout>
 
-            <!-- Garage Section - with BLACK Background -->
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -194,8 +190,7 @@
                 </LinearLayout>
             </FrameLayout>
 
-            <!-- Info Items -->
-            <!-- Credit Score -->
+    
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -318,7 +313,6 @@
                 android:layout_height="1dp"
                 android:background="#333333" />
 
-            <!-- Bank Balance -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -365,7 +359,6 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Black Section - Bottom Part -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -373,7 +366,6 @@
             android:background="#000000"
             android:paddingHorizontal="16dp">
 
-            <!-- Rewards & Benefits Section -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -384,7 +376,6 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="12dp" />
 
-            <!-- Cashback Balance -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -427,7 +418,6 @@
                 android:layout_height="1dp"
                 android:background="#333333" />
 
-            <!-- Coins -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -470,7 +460,6 @@
                 android:layout_height="1dp"
                 android:background="#333333" />
 
-            <!-- Refer and Earn -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -507,7 +496,6 @@
                     app:tint="#FFFFFF" />
             </LinearLayout>
 
-            <!-- Transaction Section - No divider line after refer and earn -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
